@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="nainita">Contact</title>
+  <link rel="shortcut icon"  href=" ./Imagenes/favicon.png" type="favicon/png"/>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body>
+  <header>
+    <section id="navigator">
+        <nav class="menu-principal">
+         <div> 
+          <ul>
+            <li class= "menu"><a href="../index.html">The Nainita</a></li>
+            <li class= "menu"><a href="./Aboutme.html">About Me</a></li>
+            <li class= "menu"><a href="./Gallery.html">Gallery</a></li>
+            <li class= "menu"><a href="./Videos.html">Videos</a></li>
+            <li class= "menu"><a href="./Prices.html">Prices</a></li>
+            <li class= "menu"><a href="">Contact</a></li>
+          </ul>
+          <div>
+             <img id= "bannernainita" src="../Imagenes/bannernainita.jpeg" alt="banner"  width="1900" height="290">
+          </div>
+         </div>
+        </nav>
+    </section>
+  </header>
+        <div class="text-document">
+          <h1>CONTACT ME</h1>
+       </div>
+       <div class="contact_form">
+
+         <div class="formulario">      
+           <h2>Formulary</h2>
+           <h3>Write us and we will contact you shortly</h3>
+
+          <form action="submeter-formulario.php" method="post">       
+    
+                <p>
+                  <label for="nombre" class="colocar_nombre">Name
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Write your name">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Write your Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Phone
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Write your phone">
+                </p>      
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Information
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Write the information">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Message
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Write your message..."></textarea> 
+                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Send</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>All fields are required.
+                </p>          
+            
+          </form>
+         </div>  
+       </div>
+</body>
+
+<footer>   
+  <div class="footer-content">
+    <img src="../Imagenes/nainita11.jpeg"> 
+    
+    <ul >
+      <li><a href="https://www.facebook.com/" target=_blank><img src="../Imagenes/facebook.png" alt=""></a></li>  
+      <li><a href="https://www.instagram.com/?hl=es-la" target=_blank><img src="../Imagenes/instagram.png"  alt=""></a></li> 
+      <li><a href="https://www.devianart.com/" target=_blank><img src="../Imagenes/devianart.png" alt= ""></a></li> 
+      <li><a href="https://www.youtube.com/" target=_blank><img src="../Imagenes/youtube.png" alt=""></a></li>  
+    </ul> 
+   
+  </div>
+  <div class="footer-bottom">
+      <p>
+      <span>copyright &copy;2022  Website The Nai</span>
+      By Vicky Elizabeth Castilla Barreda
+      </p>
+  </div>
+</footer>
+</html> 
